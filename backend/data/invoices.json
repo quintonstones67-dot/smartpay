@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "client": "John Doe",
+    "amount": 250,
+    "due": "2025-10-15",
+    "status": "Paid"
+  },
+  {
+    "id": 2,
+    "client": "Mary Jane",
+    "amount": 450,
+    "due": "2025-10-20",
+    "status": "Unpaid"
+  },
+  {
+    "id": 3,
+    "client": "James Smith",
+    "amount": 650,
+    "due": "2025-10-25",
+    "status": "Overdue"
+  },
+  {
+    "id": 1760887363647,
+    "client": "Quinton",
+    "amount": 250,
+    "due": "12 12 2005",
+    "status": "Unpaid"
+  },
+  {
+    "id": 1760887488682,
+    "client": "Tshita",
+    "amount": 500,
+    "due": "01 02 2005",
+    "status": "Unpaid"
+  },
+  {
+    "id": 1760887547345,
+    "client": "Witton",
+    "amount": 600,
+    "due": "02 02 2005",
+    "status": "Unpaid"
+  }
+]
