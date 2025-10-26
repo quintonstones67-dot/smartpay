@@ -6,7 +6,7 @@ export default function InvoiceTable() {
 
   // Fetch invoices from backend
   useEffect(() => {
-    fetch("http://localhost:5000/api/invoices")
+    fetch("https://smartpay-backend-pkdm.onrender.com/api/invoices")
       .then((res) => res.json())
       .then((data) => setInvoices(data))
       .catch((err) => console.error("Error fetching invoices:", err));
@@ -32,7 +32,7 @@ export default function InvoiceTable() {
     const newInvoice = { client, amount, due, status: "Unpaid" };
 
     try {
-      const response = await fetch("http://localhost:5000/api/invoices", {
+      const response = await fetch("https://smartpay-backend-pkdm.onrender.com/api/invoices", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(newInvoice),
